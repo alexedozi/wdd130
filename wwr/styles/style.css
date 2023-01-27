@@ -42,7 +42,7 @@ h4{
 .msg {
     background-color: black;
     color: white;
-    width: 100%;
+    max-width: 1600px;
 }
 footer a{
     background-color: blue;
@@ -67,13 +67,13 @@ div, hero-img{
     text-align: center;
 }
 main section,rivers-img{
-    width: 40%;
+    max-width: 1600px;
     margin: 0 auto;
     text-align: center;
 }
 
 .card-img{
-    width: 35%;
+    max-width: 1600px;
 }
 .icon{
     width: 25px;
@@ -81,12 +81,12 @@ main section,rivers-img{
 
 
 .paper{
-    width: 100%;
+    max-width: 1600px;
     height: 500px;
     text-align: left;
 }
 .mountains{
-    width: 30%;
+    max-width: 1600px;
 }
 
 footer p{
@@ -99,4 +99,5 @@ footer p a:hover{
 }
 footer div{
     text-align: left;
+    max-width: 1600px;
 }
