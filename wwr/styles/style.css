@@ -1,8 +1,14 @@
-background{
+#background{
     height: 725px;
+    background-color: aquamarine;
+}
+#container{
+    max-width: 1600px;
 }
 body{
     background-color: rgb(246, 244, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 header{
     background-color: palevioletred;
@@ -17,6 +23,9 @@ nav a{
     text-decoration: none;
 }
 .home-tittle{
+    margin-top: 10px;
+    font-family: Rock Salt', Bradley', sans-serif;
+    font-size: 2em;
     background-color: blue;
     color: white;
 }
@@ -25,10 +34,14 @@ h4{
     color: rgb(15, 0, 0);
 }
 .book, .join{
+    margin-top: 50px;
+    font-size: 18px;
     background-color: palevioletred;
     color:wheat;
     text-align: center;
     text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: blue;
@@ -40,11 +53,19 @@ h4{
 }
 
 .msg {
+    padding: 35px;
+    line-height: 1.5em;
+    width: 100%;
     background-color: black;
     color: white;
-    max-width: 1600px;
     margin: 0 auto;
+    
+    
 }
+.msg p{
+    padding: 15px;
+}
+
 footer a{
     background-color: blue;
     color: white;
@@ -56,8 +77,17 @@ footer a:hover{
     color: white;
 }
 footer{
+    margin-top: 200px;
+    padding: 25px 50px;
     background-color: blue;
     color: white;
+    
+}
+footer .social img{
+    padding-top: 15px;
+}
+.logo-link{
+    padding-top: 5px;
 }
 .logo{
     width: 80px;
@@ -69,28 +99,30 @@ div, hero-img{
     text-align: center;
 }
 main section,rivers-img{
-    max-width: 1600px;
+    margin: 200px 0;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 
 .card-img{
-    max-width: 1600px;
+    border: 10px solid palevioletred;
+    width: 50%;
     margin: 0 auto;
 }
 .icon{
-    width: 30px;
+    padding: 10px;
+    width: 80px;
     margin: 0 auto;
 }
 
-
-.paper{
-    max-width: 1600px;
-    height: 500px;
-    text-align: left;
-}
 .mountains{
-    max-width: 1600px;
+    width: 50%;
+
+    text-align: left;
 }
 
 footer p{
@@ -103,5 +135,5 @@ footer p a:hover{
 }
 footer div{
     text-align: left;
-    max-width: 1600px;
+    
 }
