@@ -11,7 +11,7 @@
 }
 body{
     background-color: rgb(246, 244, 248);
-    font-family: RoBoto;
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -20,6 +20,7 @@ body{
 }
 header{
     background-color: palevioletred;
+    text-align: left;
 }
 nav a:hover{
     background-color:darkblue;
@@ -32,7 +33,7 @@ nav a{
     padding: 35px;
 }
 .home-title{
-    margin-top: 10px;
+    padding-top: 15px;
     font-size: 2em;
     background-color: blue;
     color: white;
@@ -72,7 +73,7 @@ h4{
     
 }
 .msg h2{
-    font-family: 'Rock Salt';
+    font-family: 'Rock Salt', Arial, sans-serif;
 }
 
 .msg p{
@@ -88,6 +89,7 @@ footer a{
 footer a:hover{
     background-color: seagreen;
     color: white;
+
 }
 footer{
     margin-top: 200px;
@@ -102,9 +104,11 @@ footer .social img{
 }
 #logo_link{
     padding-top: 5px;
+
 }
 .logo{
     width: 80px;
+    text-align: left;
     margin: 0 auto;
 }
 div,hero-img{
@@ -117,6 +121,7 @@ main section{
     width: 50%;
     margin: 0 auto;*/
     text-align: center;
+
 }
 main section img{
     box-sizing: border-box;
@@ -126,6 +131,7 @@ main section img{
     border: 10px solid palevioletred;
     width: 50%;
     margin: 0 auto;
+    text-align: center;
 }
 .icon{
     
@@ -136,12 +142,12 @@ main section img{
 
 .mountains{
     width: 50%;
-
     text-align: left;
 }
 
 footer p{
     font-size: 1.2em;
+    text-align: left;
 }
 footer p a:hover{
     text-decoration: underline;

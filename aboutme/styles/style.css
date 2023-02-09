@@ -1,9 +1,27 @@
-* .body, h1{
+* .body, h1:hover{
     background-color: aqua;
     color: blue;
     
 }
+.a{
+    padding: 25px 50px;
+
+}
+.body,img{
+    width: 50%;
+    border: 10px solid darkorange;
+}
 
 .html{
     background-color: aliceblue;
+}
+#container{
+    max-width: 1800px;
+    background-color: rgb(156, 224, 19);
+    text-align: center;
+    margin: 0 auto;
+    height: 2000px;
+}
+.h2{
+    background-color: rgb(156, 224, 19); ;
 }
