@@ -4,13 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/contact-us.css">
+    <title>Contact Us| Home".</title>
 </head>
 <body>
+    <div id="container">
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/chic.jfif" alt="Ugo Daniel's logo">
+        </a>
+        <nav>
+            <a href="../restaurant4u/index.html">Home</a>
+            <a href="../restaurant4u/ugodaniels.html">page 2</a>
+            <a href="../restaurant4u/site-plan.html">site-plan</a>
+            <a href="../restaurant4u/contact-us.html">Contact Us</a>
+        </nav>
+    </header>
+    
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/hero-image.jpeg" alt="People enjoying white water rafting">
+        </div>
+        <section id="hero-msg">
+            <h4>Experience Our Passion On Every Plate </h4>
+            <div class='button-box'>
+                <a class='book' href="contact-us.html">Order Now</a>
+            </div>
+        </section>
+    </div>
+    
     <main>
-        <form action="">
-            <h1>your contacts information</h1>
-        </form>
+       <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                <button type="submit">Send your message</button>
+                </li>
+             </ul>
+         </form> 
     </main>
+<footer>
+    <p>Dry Oar &copy; 2023 - Alexander Edozie Onyekwere</p>
+    <p><a href="../restaurant4u/site-plan.html">Site Plan</a></p>
+    <p><a href="../restaurant4u/contact-us.html">Contact Us</a></p>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+    </div>
+</footer>
+</div>
+<script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+        // stop the form from doing the default action.
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello '+ formElement.name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+</script>
 </body>
 </html>
