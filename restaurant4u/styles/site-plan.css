@@ -62,6 +62,15 @@ header {
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
+header{
+  text-align: left;
+  display: grid;
+}
+.logo{
+  width: 80px;
+  text-align: left;
+  margin: 0 auto;
+}
 
 p {
   font-family: var(--paragraph-font);
