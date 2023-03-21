@@ -20,6 +20,7 @@
     display: block;
 }
 .sidenav a:hover {
+    background-color: #111;
     color: #e01010;
 }
 /* when you mouse over the navigation link , change their color */
