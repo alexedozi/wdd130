@@ -4,6 +4,7 @@
 }
 #container{
     max-width: 1600px;
+    margin: 0 auto;
 }
 body{
     background-color: rgb(19, 210, 169);
@@ -15,7 +16,7 @@ body{
     
 }
 header{
-    background-color: rgb(169, 225, 14);
+    background-color: rgb(211, 166, 198);
     text-align: left;
     display: grid;
     grid-template-columns: 150px auto;
